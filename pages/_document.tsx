@@ -11,11 +11,7 @@ class Doc extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <script
-            defer
-            data-domain='nikolovlazar.com'
-            src='https://plausible.io/js/plausible.js'
-          />
+        
           <meta name='monetization' content='$ilp.uphold.com/nZ4DF39aHkrm' />
           <link
             rel='preload'

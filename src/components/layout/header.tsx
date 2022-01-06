@@ -15,7 +15,7 @@ const Header = () => {
     <HStack as='nav' justifyContent='space-between' alignItems='center' py={3}>
       <NextLink href='/' passHref>
         <Link>
-          <Heading size='sm'>Lazar.</Heading>
+          <Heading size='sm'>bigyank.</Heading>
         </Link>
       </NextLink>
       <HStack alignItems='center' spacing={{ base: 0, md: 2 }}>

@@ -25,7 +25,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           locale: 'en_US',
           images: [
             {
-              url: 'https://nikolovlazar.com/assets/images/social.png',
+              url: 'https://bigyank.com.np/assets/images/social.png',
               width: 1200,
               height: 630,
               alt: 'Lazar Nikolov',
