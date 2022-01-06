@@ -11,6 +11,10 @@ const oldBlogPosts = [
 ];
 
 module.exports = {
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
   async redirects() {
     return oldBlogPosts.map((post) => ({
       source: post,
