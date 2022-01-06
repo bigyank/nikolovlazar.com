@@ -11,17 +11,17 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <ChakraProvider theme={theme}>
       <NextSeo
-        title='Lazar Nikolov - Developer, designer, course creator.'
-        description='Full-stack Engineer, UI Designer, and Open Source Advocate.'
+        title='Bigyan Koirala - Alxi Developer.'
+        description='Alxi Full-stack Engineer'
         twitter={{
           cardType: 'summary_large_image',
           handle: '@NikolovLazar',
         }}
         openGraph={{
-          url: 'https://nikolovlazar.com',
-          title: 'Lazar Nikolov - Developer, designer, course creator.',
+          url: 'https://bigyank.com.np',
+          title: 'Bigyan Koirala - Alxi Developer',
           description:
-            'Full-stack Engineer, UI Designer, and Open Source Advocate.',
+            'Alxi Full-stack Engineer',
           locale: 'en_US',
           images: [
             {

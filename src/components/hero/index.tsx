@@ -11,9 +11,7 @@ import { FiArrowUpRight } from 'react-icons/fi';
 
 import {
   GITHUB_PROFILE,
-  POLYWORK_PROFILE,
-  TWITCH_CHANNEL,
-  TWITTER_PROFILE,
+  LINKEDIN_PROFILE
 } from 'src/constants';
 import { Link as LinkType } from '@/types/link';
 import ExternalLink from '../external-link';
@@ -24,18 +22,13 @@ type SocialLink = LinkType & { color?: string };
 
 const socialLinks: SocialLink[] = [
   {
-    href: TWITTER_PROFILE,
-    label: 'Twitter',
+    href: LINKEDIN_PROFILE,
+    label: 'Linkedin',
     color: 'twitter',
   },
   {
     href: GITHUB_PROFILE,
     label: 'GitHub',
-  },
-  {
-    href: TWITCH_CHANNEL,
-    label: 'Twitch',
-    color: 'purple.500',
   },
 ];
 
@@ -57,19 +50,19 @@ const Hero = () => {
           alignItems='center'
         >
           <Heading size='lg' as='h1'>
-            Hi, I’m Lazar Nikolov.
+            Hi, I’m Bigyan Koirala.
           </Heading>
           <HeroPlay />
         </Stack>
         <Text lineHeight='175%' as='h2'>
-          I’m a full-stack engineer, a designer, and a content creator. I work
-          at <ExternalLink href='https://codechem.com'>CodeChem</ExternalLink>{' '}
-          as a <strong>developer/designer</strong>, and I’m a{' '}
+          I’m alxi full-stack engineer. I work
+          at <ExternalLink href='https://fuckyou.com'>fuckyou</ExternalLink>{' '}
+          as a <strong>non of your fucking concern</strong>, and I’m a{' '}
           <strong>core member</strong> at{' '}
-          <ExternalLink href='https://chakra-ui.com'>Chakra UI</ExternalLink>,
-          contributing as a <strong>Developer Advocate</strong>. I’m also an{' '}
-          <ExternalLink href='https://egghead.io'>egghead.io</ExternalLink>{' '}
-          <strong>instructor</strong>.
+          <ExternalLink href='https://fuckyouagain.com'>Fuck you agin</ExternalLink>,
+          contributing as a <strong>fucker</strong>. I’m also an{' '}
+          <ExternalLink href='https://egghead.io'>fucking</ExternalLink>{' '}
+          <strong>fuckhead</strong>.
         </Text>
         <Stack spacing={3} direction={{ base: 'column', md: 'row' }}>
           {socialLinks.map(({ href, label, color }) => (

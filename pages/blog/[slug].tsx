@@ -43,12 +43,12 @@ const BlogPostPage = ({ title, description, date, source }: Props) => {
   return (
     <>
       <NextSeo
-        title={`${title} - Lazar Nikolov`}
+        title={`${title} - Bigyan Koirala`}
         description={description}
         openGraph={{
           description,
-          title: `${title} - Lazar Nikolov`,
-          url: `https://nikolovlazar.com/blog/${slug}`,
+          title: `${title} - Bigyan Koirala`,
+          url: `https://bigyank.com.np/blog/${slug}`,
           images: [
             {
               url: `https://res.cloudinary.com/nikolovlazar/image/upload/${encodeURIComponent(

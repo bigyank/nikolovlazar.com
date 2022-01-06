@@ -3,14 +3,10 @@ import NextLink from 'next/link';
 import { chakra, Stack, VStack, Divider, Link, Text } from '@chakra-ui/react';
 
 import {
-  TWITTER_PROFILE,
+  LINKEDIN_PROFILE,
   GITHUB_PROFILE,
-  YOUTUBE_CHANNEL,
-  POLYWORK_PROFILE,
-  TWITCH_CHANNEL,
 } from '../../constants';
 import { Link as LinkType } from '@/types/link';
-import VercelCallout from '../vercel-callout';
 
 const firstGroup: LinkType[] = [
   {
@@ -25,8 +21,8 @@ const firstGroup: LinkType[] = [
 
 const secondGroup = [
   {
-    href: TWITTER_PROFILE,
-    label: 'Twitter',
+    href: LINKEDIN_PROFILE,
+    label: 'Linkedin',
   },
   {
     href: GITHUB_PROFILE,
@@ -108,7 +104,7 @@ const Footer = () => {
           <chakra.span as='time' color='purple.500'>
             {new Date().getFullYear()}
           </chakra.span>{' '}
-          Lazar Nikolov
+          Bigyan Koirala
         </Text>
       </Stack>
     </VStack>

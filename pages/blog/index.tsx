@@ -37,7 +37,7 @@ const Blog = ({ posts }: Props) => {
 
   return (
     <>
-      <NextSeo title='Blog - Lazar Nikolov' />
+      <NextSeo title='Blog - Bigyan Koirala' />
       <VStack spacing={3} alignItems='flex-start' w='full' as='section'>
         <Heading size='md'>Blog.</Heading>
         <Text fontSize='md'>
