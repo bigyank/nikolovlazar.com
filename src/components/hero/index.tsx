@@ -16,7 +16,6 @@ import {
 import { Link as LinkType } from '@/types/link';
 import ExternalLink from '../external-link';
 import HeroImage from '../hero-image';
-import HeroPlay from '../hero-play';
 
 type SocialLink = LinkType & { color?: string };
 
@@ -52,7 +51,6 @@ const Hero = () => {
           <Heading size='lg' as='h1'>
             Hi, I’m Bigyan Koirala.
           </Heading>
-          <HeroPlay />
         </Stack>
         <Text lineHeight='175%' as='h2'>
           I’m alxi full-stack engineer. I work
