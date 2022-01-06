@@ -21,18 +21,6 @@ const firstGroup: LinkType[] = [
     href: '/blog',
     label: 'Blog',
   },
-  {
-    href: '/colophon',
-    label: 'Colophon',
-  },
-  {
-    href: '/talks',
-    label: 'Talks',
-  },
-  {
-    href: 'https://plausible.io/nikolovlazar.com',
-    label: 'Analytics',
-  },
 ];
 
 const secondGroup = [
@@ -44,18 +32,6 @@ const secondGroup = [
     href: GITHUB_PROFILE,
     label: 'GitHub',
   },
-  {
-    href: YOUTUBE_CHANNEL,
-    label: 'YouTube',
-  },
-  {
-    href: POLYWORK_PROFILE,
-    label: 'Polywork',
-  },
-  {
-    href: TWITCH_CHANNEL,
-    label: 'Twitch',
-  },
 ];
 
 const thirdGroup = [
@@ -66,18 +42,6 @@ const thirdGroup = [
   {
     href: '/gear',
     label: 'Gear',
-  },
-  {
-    href: '/bookmarks',
-    label: 'Bookmarks',
-  },
-  {
-    href: '/books',
-    label: 'Books',
-  },
-  {
-    href: '/newsletter',
-    label: 'Newsletter',
   },
 ];
 
@@ -146,7 +110,6 @@ const Footer = () => {
           </chakra.span>{' '}
           Lazar Nikolov
         </Text>
-        <VercelCallout />
       </Stack>
     </VStack>
   );

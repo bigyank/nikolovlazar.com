@@ -19,14 +19,14 @@ const Header = () => {
         </Link>
       </NextLink>
       <HStack alignItems='center' spacing={{ base: 0, md: 2 }}>
-        <NextLink href='/talks' passHref>
+        <NextLink href='/blog' passHref>
           <Button as={Link} size='sm' variant='ghost'>
-            Talks
+            Blog
           </Button>
         </NextLink>
-        <NextLink href='/bookmarks' passHref>
+        <NextLink href='/uses' passHref>
           <Button as={Link} size='sm' variant='ghost'>
-            Bookmarks
+            Uses
           </Button>
         </NextLink>
         <IconButton
